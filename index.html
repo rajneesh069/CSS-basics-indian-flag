@@ -26,9 +26,14 @@
         }
 
         .ashok-chakra {
-            position: absolute;
-            left: 45%;
-            top: 15%;
+  /*If we want to use flex to center the "ashok-chakra" rather than positioning then we can use flexbox technique */
+            /*             position: absolute; */  
+/*             left: 45%;
+            top: 15%; */
+            display:flex;
+            justify-content:center;
+            height:150px; /*same height as the white portion of the flag*/
+            align-items:center;  /*and now it is in center*/
             margin:0px;
             padding:0px;
         }
